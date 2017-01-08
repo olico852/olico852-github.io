@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PONG!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="game">
+      <div id="msgboard">
+        <div id="title">Pong</div>
+        <div id="gamestatus">
+            <p id='instruct'>Press space to start + launch a ball each time</p>
+          <div id="scores">
+            <p id='p1'>Player 1: 'W', 'S' buttons</p>
+            <p id='p2'>Player 2: Up, down buttons</p>
+          </div>
+      </div>
+
+      <div id="gameCourt">
+        <span id="net"></span>
+        <div id="paddle1"></div>
+        <div id="paddle2"></div>
+      </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="./raf-polyfill.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
